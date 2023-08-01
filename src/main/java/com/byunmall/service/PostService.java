@@ -29,6 +29,8 @@ public class PostService {
                 .content(postCreate.getContent())
                 .build();
 
+        System.out.println("hello");
+
         postRepository.save(post);
     }
 
